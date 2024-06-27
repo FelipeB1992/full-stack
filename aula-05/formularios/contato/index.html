@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+<body>
+    <h1>Contatos</h1>
+    <hr>
+    <br>
+
+    <form action="https://api-send-email-m9xz.onrender.com/felipebarreto19992@gmail.com" method="post">
+        <div>
+            <label for="name">Nome</label> <br>
+            <input type="text" name="name" id="name" placeholder="Insira seu nome">
+        </div>
+        <br>
+        <div>
+            <label for="email"> Email</label><br>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="subject">Assunto</label>
+            <fieldset>
+                <legend>Assunto</legend>
+                <input type="radio" name="subject" id="sugestao">
+                <label for="sugestao">sugestao</label>
+
+                <br>
+
+                <input type="radio" name="subject" id="contato" value="contato">
+                <label for="contato">contato</label>
+
+                <br>
+
+
+                <input type="radio" name="subject" id="outros" value="outros">
+                <label for="outros">outros</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="messege">mensagem</label> <br>
+            <textarea name="massage" id="massage" cols="40" rows="10"></textarea>
+        </div>
+        <br>
+    <div>
+        <button> Enviar
+
+        </button>
+    </div>
+
+
+    </form>
+</body>
+</html>

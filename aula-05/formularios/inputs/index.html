@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Lista de inputs</h1>
+    <hr>
+    <br>
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" maxlength="9" minlength="3" placeholder="insira seu nome completo">
+    </div>
+    <br>
+    <div>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
+    </div>
+    <br>
+    <div>
+        <label for="senha">senha</label>
+        <input type="password" name="senha" id="senha" placeholder="*****">
+    </div>
+    <br>
+    <div>
+        <label for="data">Data</label>
+        <input type="date" name="date" id="data">
+    </div>
+    <br>
+    <div>
+        <label for="data-hora"> Data Hora</label>
+        <input type="datetime-local" name="date-hora" id="data-hora">
+    </div>
+    <br>
+    <div>
+        <label for="cor">Cor</label>
+        <input type="color" name="cor" id="cor">
+
+    </div>
+    <div>
+        <label for="arquivo">Arquivo</label>
+        <input type="file" name="arquivo" id="arquivo">
+    </div>
+    <br>
+    <div>
+        <fieldset>
+            <legend>Radio</legend>
+
+            <input type="radio" name="radio" id="radio1">
+            <label for="radio1">Cotação</label>
+
+            <input type="radio" name="assunto" id="radio2" value="emprestimo">
+            <label for="radio2">Emprestimo</label>
+
+            <input type="radio" name="assunto" id="radio3" value="compra">
+            <label for="radio3">Compra</label>
+
+        </fieldset>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Checkbox</label>
+    </div>
+    <div>
+        <label for="numero">Numero</label>
+        <input type="number" name="nuemro" id="nuemro" min="1" max="10">
+    </div>
+    <br>
+    <div>
+        <label for="range"> Range</label>
+        <input type="range" name="alcance" id="alcance">
+    </div>
+    <br>
+    <div>
+        <label for="textarea"> Textarea</label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="insira sua mensagem aqui..."></textarea>
+    </div>
+    <br>
+    <div>
+        <label for="select">Select</label>
+        <select name="select" id="select">
+            <option value="1"> Opção 1</option>
+            <option value="2"> Opção 2</option>
+            <option value="3"> Opção 3</option>
+        </select>
+    </div>
+</body>
+
+</html>
